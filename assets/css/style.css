@@ -1,0 +1,259 @@
+body {
+  font-family: "Cormorant Garamond", serif;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1265px;
+  margin: 0 auto;
+}
+
+.header__inner {
+  height: 116px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  color: #b08ead;
+  font-size: 24px;
+  line-height: 30px;
+  align-items: center;
+  margin-right: 53px;
+}
+.menu__list {
+  display: flex;
+}
+.menu__item {
+  margin: 0 20px;
+}
+.menu__img {
+  width: 22px;
+  height: 20px;
+  margin-left: 25px;
+}
+.menu__logo {
+  width: 122px;
+  height: 63px;
+}
+
+.collection {
+  background-image: url(../images/back.jpg);
+  background-size: auto;
+  height: 820px;
+}
+.collection__container {
+  max-width: 1215px;
+  margin: 0 auto;
+}
+.collection__inner {
+  padding: 70px 0;
+  padding-left: 65px;
+}
+.collection__img {
+  z-index: 0;
+}
+
+.block {
+  background-color: #b08ead;
+  display: inline-block;
+}
+.block-position {
+  position: relative;
+  left: 710px;
+  top: -570px;
+  z-index: 1;
+}
+.block__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 280px;
+  color: #fff;
+  padding: 125px 105px 125px 40px;
+}
+.block__text__top {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 30px;
+  letter-spacing: 1.5px;
+}
+.block__text__tittle {
+  font-size: 45px;
+  line-height: 55px;
+  padding: 10px 0 30px;
+}
+.block__text__bottom {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  line-height: 30px;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 1.5px;
+}
+.block__text__bottom span {
+  padding-bottom: 5px;
+  border-bottom: 2px solid #b08ead;
+  transition: border-bottom 0.5s;
+}
+.block__text__bottom span:hover {
+  border-bottom: 2px solid #fff;
+}
+
+.cards {
+  margin: 75px 0;
+}
+.cards__text {
+  display: flex;
+  flex-direction: column;
+  width: 790px;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 790px;
+  padding: 0 20px;
+  margin: 0 auto 75px;
+}
+.cards__subtittle {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  line-height: 30px;
+  color: #b99bb6;
+  text-transform: uppercase;
+}
+.cards__tittle {
+  font-size: 26px;
+  line-height: 38px;
+}
+.cards__btn {
+  margin: 17px 320px 0;
+}
+.cards__holder {
+  display: flex;
+  justify-content: space-around;
+}
+.cards__item {
+  background-color: #ceb3cb;
+  color: #fff;
+}
+.cards__item__text {
+  padding: 24px;
+}
+.cards__item__tittle {
+  font-size: 25px;
+  line-height: 30px;
+  margin-bottom: 6px;
+}
+.cards__item__subtittle {
+  font-size: 17px;
+  line-height: 30px;
+}
+
+.btn {
+  color: #b99bb6;
+  background-color: transparent;
+  border: 1px solid #b99bb6;
+  border-radius: 25px;
+  padding: 15px 30px;
+  transition: all 0.8s;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #b99bb6;
+  color: #fff;
+}
+
+.designer {
+  background-color: #ceb3cb;
+}
+.designer__inner {
+  display: flex;
+  justify-content: center;
+  padding: 75px 112px;
+}
+.designer__block {
+  margin: auto 0;
+}
+
+.roadmap {
+  padding: 75px 0;
+}
+.roadmap__inner {
+  display: flex;
+  flex-direction: column;
+}
+.roadmap__block {
+  padding-bottom: 41px;
+  padding-left: 31px;
+}
+.roadmap__block-br {
+  border-bottom: 1px solid #d7b7d4;
+  margin-bottom: 40px;
+}
+.roadmap__block__text {
+  max-width: 486px;
+  color: #5f4d5d;
+  font-size: 24px;
+  line-height: 30px;
+}
+.roadmap__block__text-right {
+  padding: 88px 60px;
+}
+.roadmap__block__text-left {
+  display: inline-block;
+  padding: 100px 60px 100px 90px;
+}
+.roadmap__block__text p {
+  padding-bottom: 10px;
+}
+.roadmap__img-right {
+  float: right;
+}
+.roadmap__img-left {
+  float: left;
+}
+
+.prices {
+  padding-top: 75px;
+}
+.prices__inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.prices__block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 0 50px;
+}
+.prices__name {
+  font-size: 24px;
+  line-height: 30px;
+  color: #5f4d5d;
+  padding-top: 9px;
+}
+.prices__price {
+  padding-bottom: 5px;
+  font-size: 16px;
+  line-height: 18px;
+  color: #b0b0b0;
+}
+
+.footer {
+  background-color: #c9adc6;
+  color: #fff;
+  padding: 40px 0;
+}
+.footer__logo {
+  padding-right: 63px;
+}
+.footer__inner {
+  display: flex;
+}
+.footer-color {
+  color: #fff;
+}/*# sourceMappingURL=style.css.map */
